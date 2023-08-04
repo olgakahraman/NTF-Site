@@ -69,4 +69,8 @@ section{
     width:300px;
     border-radius:4.6px;
 }
-
+footer p{
+    padding: 45px 0;
+color:#5f29a3;
+text-align: center;
+}
