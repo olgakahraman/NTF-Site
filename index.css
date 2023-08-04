@@ -60,3 +60,13 @@ section{
 .main-image{
     width:100%;
 }
+.second-section-image-container{
+    display:flex;
+    justify-content: space-between;
+    padding:25px 0;
+}
+.feature-image{
+    width:300px;
+    border-radius:4.6px;
+}
+
