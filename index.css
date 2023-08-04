@@ -12,11 +12,9 @@ body{
 /*  typography  */
  h1{
     font-size: 36px;
-    color:whitesmoke;
+   
 }
-h2{
-    font-size: ;
-}
+
  h3{
     font-size: 20px;
     color:#d0aaff;
@@ -28,27 +26,23 @@ a{
     color:#ef5839;
     text-decoration:underline dotted;
 }
-a:hover{
+a:hover, a:active{
 color:#d4b44c;
 }
-a:active{
-    color:#d4b44c;
-}
+
 
 /* layout */
 
-header{
+header, section, footer{
+    padding: 45px 0;
+}
+
+header, .second-section{
     background:#5f29a3;
-    padding: 45px 0;
-      
+    
 }
 
-section{
-    padding: 45px 0;
-}
-
-.second-section{
-    background: #5f29a3;
+.second-section, h1{
     color:whitesmoke;
 }
 
@@ -69,8 +63,8 @@ section{
     width:300px;
     border-radius:4.6px;
 }
-footer p{
-    padding: 45px 0;
+footer {
+   
 color:#5f29a3;
 text-align: center;
 }
