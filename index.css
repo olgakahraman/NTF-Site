@@ -1,70 +1,103 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-size: 16px;
-    color:#2b283a;
-    font-family: 'Roboto', sans-serif;
+body {
+  font-size: 16px;
+  color: #2b283a;
+  font-family: "Roboto", sans-serif;
 }
 
 /*  typography  */
- h1{
-    font-size: 36px;
-   
+h1 {
+  font-size: 36px;
 }
 
- h3{
-    font-size: 20px;
-    color:#d0aaff;
+h3 {
+  font-size: 20px;
+  color: #d0aaff;
 }
-
+p{
+    line-height: 23px;
+}
 /*  links */
 
-a{
-    color:#ef5839;
-    text-decoration:underline dotted;
+.link {
+  color: #ef5839;
+  text-decoration: underline dotted;
 }
-a:hover, a:active{
-color:#d4b44c;
+.link:hover,
+.link:active {
+  color: #d4b44c;
+}
+.btn{
+    padding:10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    border:none;
+    text-decoration: none;
+   display:inline-block;
+   margin-top:20px;
+}
+.buy:hover{
+    background:#f3e885;
+    color:#2b283a;
+
+}
+.buy-nft-btn{
+    background: #5f29a3;
+    color:whitesmoke;
+}
+
+.more-info-btn{
+    background: #f0e0ff;
+    color:#5f29a3;
+}
+.about-us-btn,
+.contact-btn{
+    background: whitesmoke;
+    color:#5f29a3;
 }
 
 
 /* layout */
 
-header, section, footer{
-    padding: 45px 0;
+header,
+section,
+footer {
+  padding: 45px 0;
 }
 
-header, .second-section{
-    background:#5f29a3;
-    
+header,
+.second-section {
+  background: #5f29a3;
 }
 
-.second-section, h1{
-    color:whitesmoke;
+.second-section,
+h1 {
+  color: whitesmoke;
 }
 
-.container{
-    width:620px;
-    margin:0 auto;
+.container {
+  width: 620px;
+  margin: 0 auto;
 }
 
-.main-image{
-    width:100%;
+.main-image {
+  width: 100%;
 }
-.second-section-image-container{
-    display:flex;
-    justify-content: space-between;
-    padding:25px 0;
+.second-section-image-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
 }
-.feature-image{
-    width:300px;
-    border-radius:4.6px;
+.feature-image {
+  width: 300px;
+  border-radius: 4.6px;
 }
 footer {
-   
-color:#5f29a3;
-text-align: center;
+  color: #5f29a3;
+  text-align: center;
 }
+
