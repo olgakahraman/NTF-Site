@@ -40,7 +40,8 @@ p{
    display:inline-block;
    margin-top:20px;
 }
-.buy:hover{
+.btn:hover,
+.btn:active{
     background:#f3e885;
     color:#2b283a;
 
