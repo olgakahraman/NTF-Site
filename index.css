@@ -1,104 +1,125 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-size: 16px;
-  color: #2b283a;
-  font-family: "Roboto", sans-serif;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
-/*  typography  */
+/* ----- TYPOGRAPHY ----- */
+
+h1, 
+h3 {
+    margin: 0;
+}
+
 h1 {
-  font-size: 36px;
+    color: whitesmoke;
+    font-size: 36px;
+}
+
+h2 {
+    color: #451c7a;
+    font-size: 28px;
+    margin-top: 0;
 }
 
 h3 {
-  font-size: 20px;
-  color: #d0aaff;
+    font-size: 20px;
 }
-p{
+
+p {
     line-height: 23px;
 }
-/*  links */
 
-.link {
-  color: #ef5839;
-  text-decoration: underline dotted;
+.subheading {
+    display: block;
+    font-size: 20px;
+    color: #d0aaff;
 }
-.link:hover,
-.link:active {
-  color: #d4b44c;
+
+.section-two h2 {
+    color: inherit;
 }
-.btn{
-    padding:10px 19px;
-    border-radius: 4.6px;
+
+/* ----- LINKS ----- */
+
+a {
+    color: #ef5839;
+    text-decoration: underline dotted; 
+}
+
+a:hover, 
+a:active {
+    color: #d4b44c;
+}
+
+.btn {
+    font-size: 18px;
     font-weight: 500;
-    border:none;
     text-decoration: none;
-   display:inline-block;
-   margin-top:20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4.6px;
 }
-.btn:hover,
-.btn:active{
-    background:#f3e885;
-    color:#2b283a;
 
-}
-.buy-nft-btn{
+.btn-dark {
+    color: whitesmoke;
     background: #5f29a3;
-    color:whitesmoke;
 }
 
-.more-info-btn{
-    background: #f0e0ff;
-    color:#5f29a3;
+.btn-mid {
+    color: #5f29a3; 
+    background: #f0e0ff; 
 }
-.about-us-btn,
-.contact-btn{
+
+.btn-light {
+    color: #5f29a3; 
     background: whitesmoke;
-    color:#5f29a3;
 }
 
+.btn:hover, 
+.btn:active {
+    color: #2b238a;
+    background-color: #f3e885;
+}
 
-/* layout */
+/* ----- LAYOUT ----- */
 
-header,
-section,
+header, 
+section, 
 footer {
-  padding: 45px 0;
+    padding: 46px 0;
 }
 
-header,
-.second-section {
-  background: #5f29a3;
+header, 
+.section-two {
+    background-color: #5f29a3;
 }
 
-.second-section,
-h1 {
-  color: whitesmoke;
+.section-two {
+    color: whitesmoke;
 }
 
 .container {
-  width: 620px;
-  margin: 0 auto;
+    width: 640px;
+    margin: 0 auto;
 }
 
 .main-image {
-  width: 100%;
-}
-.second-section-image-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 25px 0;
-}
-.feature-image {
-  width: 300px;
-  border-radius: 4.6px;
-}
-footer {
-  color: #5f29a3;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 32px;
 }
 
+.section-two-image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-image {
+    width: 310px;
+    border-radius: 4.6px;
+}
+
+footer {
+    text-align: center;
+    color: #5f29a3;
+}
