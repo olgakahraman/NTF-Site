@@ -207,8 +207,15 @@ p{
 }
 
 
-
-
+nav li{
+  margin-right: 1.25em;
+}
+nav ul,
+header .container{
+  display: flex;
+  justify-content: space-between;
+ 
+}
 
 
 }
