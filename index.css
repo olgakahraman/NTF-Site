@@ -54,7 +54,7 @@ a:active {
 
 .btn {
   font-size: 1.125rem;
-  text-align:center;
+  text-align: center;
   font-weight: 500;
   text-decoration: none;
   display: block;
@@ -95,10 +95,7 @@ footer {
 header,
 .section-two {
   background-color: #5f29a3;
-
 }
-
-
 
 .section-two {
   color: whitesmoke;
@@ -117,8 +114,6 @@ header,
   margin: 0 auto 2rem;
 }
 
-
-
 .feature-image {
   width: 100%;
   border-radius: 4.6px;
@@ -130,31 +125,21 @@ footer {
   color: #5f29a3;
 }
 
-
-
 /* navbar */
 
-
 nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.125rem;
-    padding: 0.85em 0;
-    display: block;
-    
- 
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: 0.85em 0;
+  display: block;
 }
-
-
 
 ul {
-    padding: 0;
-    margin-top: 0;
-    list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+  list-style-type: none;
 }
-
-
-
 
 /* media queries */
 @media (min-width: 480px) {
@@ -166,56 +151,51 @@ ul {
   .feature-image {
     width: 48.8%;
   }
-
 }
 
-@media(max-width:767px){
-header{
-  text-align: center;
-}
+@media (max-width: 767px) {
+  header {
+    text-align: center;
+  }
 
-nav{
-margin-top:1.5em;
-}
+  nav {
+    margin-top: 1.5em;
+  }
 
-li:not(:last-child) {
+  li:not(:last-child) {
     border-bottom: 1px dotted #a190b6;
-}
-}
-
-@media (min-width:768px){
-header,
-section,
-footer {
-  padding: 2.875em 0;
-}
-.btn{
-  display:inline-block;
-  margin-right:0.5em; 
-}
-h1{
-  font-size: 2.25rem;
-}
-h2{
-  font-size: 1.75rem;
-}
-.subheading{
-  font-size: 1.25rem;
-}
-p{
-  font-size: 1.125rem;
+  }
 }
 
+@media (min-width: 768px) {
+  header,
+  section,
+  footer {
+    padding: 2.875em 0;
+  }
+  .btn {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  .subheading {
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 1.125rem;
+  }
 
-nav li{
-  margin-right: 1.25em;
-}
-nav ul,
-header .container{
-  display: flex;
-  justify-content: space-between;
- 
-}
-
-
+  nav li {
+    margin-right: 1.25em;
+  }
+  nav ul,
+  header .container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
